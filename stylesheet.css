@@ -1,11 +1,39 @@
+
 .navbar-menu,
 .navbar-submenu,
 .navbar-submenu-details {
 	display: flex;
 	flex-direction: column;
 	list-style: none;
+	justify-content: end;
+	color: #003366;
 	padding: 0;
 	margin: 0;
+}
+
+.banner {
+	display: grid;
+	justify-content: center;
+	padding-left: 50%;
+}
+
+.main-img {
+	display: grid;
+	padding-left: 42.75%;
+	padding-top: 19%;
+}
+
+.main-text h2 {
+display:grid;
+justify-content: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.info {
+	display: grid;
+	justify-content: center;
+	padding-top: 15%;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .navbar-menu {
@@ -25,6 +53,7 @@
 	display: block;
 	padding-block-end: 12px;
 	padding-block-start: 12px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	text-align: center;
 	text-decoration: none;
 	transition: 0.4s background;
@@ -133,11 +162,19 @@
 		padding-inline-start: 24px;
 	}
 }
+
+.image-slide {
+	display: grid;
+	justify-content: center;
+	padding-top: 10%;
+	padding-left: 39%;
+	height: 25%;
+}
+
 .container{
-	width:35%;
-	height:100vh;
-	display:flex;
-	align-items:center;
+	width: 35%;
+	height: 25vh;
+	display:grid;
 	justify-content:center;
 }
 .swiper{
@@ -147,37 +184,4 @@
 }
 .swiper-slide img{
 	width:100%;
-}
-.socials{
-	display:flex;
-	justify-content:space-around;
-	align-items:center;
-	
-}
-.nav-link{
-	display:flex;
-	align-items:center;
-	color:darkblue;
-}
-.nav-link a{
-	text-decoration:none;
-	transition:0.5s;
-
-}
-.nav-link a:hover{
-	color:red;
-}
-.icon{
-	font-size:1.5em;
-	color:darkblue;
-}
-.twitter{
-	display:flex;
-}
-.facebook{
-	display:flex;
-	justify-content:space-between;
-}
-.instagram{
-	display:flex;
 }
