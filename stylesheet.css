@@ -148,3 +148,36 @@
 .swiper-slide img{
 	width:100%;
 }
+.socials{
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	
+}
+.nav-link{
+	display:flex;
+	align-items:center;
+	color:darkblue;
+}
+.nav-link a{
+	text-decoration:none;
+	transition:0.5s;
+
+}
+.nav-link a:hover{
+	color:red;
+}
+.icon{
+	font-size:1.5em;
+	color:darkblue;
+}
+.twitter{
+	display:flex;
+}
+.facebook{
+	display:flex;
+	justify-content:space-between;
+}
+.instagram{
+	display:flex;
+}
