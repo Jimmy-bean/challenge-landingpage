@@ -1,4 +1,8 @@
 
+.main-content {
+	background: #d3d3d3;
+}
+
 .navbar-menu,
 .navbar-submenu,
 .navbar-submenu-details {
@@ -166,7 +170,8 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 .image-slide {
 	display: grid;
 	justify-content: center;
-	padding-top: 10%;
+	padding-top: 5%;
+	padding-bottom: 15%;
 	padding-left: 39%;
 	height: 25%;
 }
