@@ -133,3 +133,18 @@
 		padding-inline-start: 24px;
 	}
 }
+.container{
+	width:35%;
+	height:100vh;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+.swiper{
+	width:100%;
+	height:fit-content;
+
+}
+.swiper-slide img{
+	width:100%;
+}
